@@ -2,8 +2,11 @@ import metaversefile from 'metaversefile';
 
 const baseUrl = import.meta.env.VITE_CORE_MODULES_URL ?? import.meta.env.NEXT_CORE_MODULES_URL ?? `https://ixc4m-uiaaa-aaaam-qa5sa-cai.ic0.app/core-modules/`;
 
+// Shaw > I added "index.js" to the end of the couple of these imports to avoid the MIME type confusion upon loading the module from the weird way that the canister serves it.
+
+
 const moduleUrls = {
-  button: `${baseUrl}button/`,
+  button: `${baseUrl}button/index.js`,
   silk: `${baseUrl}silk/`,
   card: `${baseUrl}card/`,
   arrowLoader: `${baseUrl}arrow-loader/`,
@@ -29,7 +32,7 @@ const moduleUrls = {
   flare: `${baseUrl}flare/`,
   firedrop: `${baseUrl}firedrop/`,
   meshLodItem: `${baseUrl}mesh-lod-item/`,
-  transformIndicators: `${baseUrl}transform-indicators/`,
+  transformIndicators: `${baseUrl}transform-indicators/index.js`,
   glider: `${baseUrl}glider/`,
   phoneEditTool: `${baseUrl}phone-edit-tool/`,
 };

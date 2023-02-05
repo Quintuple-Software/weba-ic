@@ -1,11 +1,6 @@
 import {isProd} from './env.js';
 
-export const compilerBaseUrl = 
-import.meta.env.VITE_COMPILER_URL ??
-isProd ?
-  `https://compiler.webaverse.com/`
-:
-  `https://local-compiler.webaverse.com:3000/`;
+export const compilerBaseUrl = "https://ixc4m-uiaaa-aaaam-qa5sa-cai.ic0.app/"
 
 // scenes
 export const scenesBaseUrl = isProd ?
