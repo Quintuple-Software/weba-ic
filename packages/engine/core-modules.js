@@ -1,6 +1,6 @@
 import metaversefile from 'metaversefile';
 
-const baseUrl = import.meta.env.VITE_CORE_MODULES_URL ?? import.meta.env.NEXT_CORE_MODULES_URL ?? `https://webaverse.github.io/core-modules/`;
+const baseUrl = import.meta.env.VITE_CORE_MODULES_URL ?? import.meta.env.NEXT_CORE_MODULES_URL ?? `https://ixc4m-uiaaa-aaaam-qa5sa-cai.ic0.app/core-modules/`;
 
 const moduleUrls = {
   button: `${baseUrl}button/`,
