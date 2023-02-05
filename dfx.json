@@ -1,0 +1,19 @@
+{
+    "canisters": {
+        "frontend": {
+            "type": "assets",
+            "frontend": {
+              "entrypoint": "packages/client/index.html"
+            },
+            "source": [
+              "dist/packages/client/",
+              "dist/packages/client/assets/"
+            ]
+        }
+    },
+    "defaults": {
+        "build": {
+            "packtool": ""
+        }
+    }
+}
