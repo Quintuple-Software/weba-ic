@@ -6,7 +6,7 @@ const baseUrl = import.meta.env.VITE_CORE_MODULES_URL ?? import.meta.env.NEXT_CO
 
 
 const moduleUrls = {
-  button: `${baseUrl}button/index.js`,
+  button: `${baseUrl}button/`,
   silk: `${baseUrl}silk/`,
   card: `${baseUrl}card/`,
   arrowLoader: `${baseUrl}arrow-loader/`,
@@ -32,7 +32,7 @@ const moduleUrls = {
   flare: `${baseUrl}flare/`,
   firedrop: `${baseUrl}firedrop/`,
   meshLodItem: `${baseUrl}mesh-lod-item/`,
-  transformIndicators: `${baseUrl}transform-indicators/index.js`,
+  transformIndicators: `${baseUrl}transform-indicators/`,
   glider: `${baseUrl}glider/`,
   phoneEditTool: `${baseUrl}phone-edit-tool/`,
 };
