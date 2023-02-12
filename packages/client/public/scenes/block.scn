@@ -8,6 +8,14 @@
       ],
       "start_url": "https://plankatron.github.io/scenes/grid.glb",
       "dynamic": false
+    },
+    {
+      "start_url": "https://zcy5j-5iaaa-aaaak-qbzzq-cai.raw.ic0.app/core-modules/weba-trade/index.js",
+      "position": [
+        0,
+        0,
+        0
+      ]
     }
   ]
 }
