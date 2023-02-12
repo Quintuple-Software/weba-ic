@@ -6,7 +6,8 @@
     "build": "nx run-many --target=build --parallel 4",
     "dev": "nx run-many --target=dev --parallel 4",
     "test": "nx run-many --target=test --parallel 4",
-    "lint": "nx run-many --target=lint --parallel 4"
+    "lint": "nx run-many --target=lint --parallel 4",
+    "build-changes": "rm -rf node_modules/.cache && npm run build"
   },
   "private": true,
   "dependencies": {

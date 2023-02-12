@@ -4,7 +4,7 @@ export const compilerBaseUrl = "https://compiler.webaverse.com/";
 
 // scenes
 export const scenesBaseUrl = isProd ?
-  `https://webaverse.github.io/scenes/`
+  `/scenes/`
 :
   `/scenes/`;
 export const defaultSceneName = 'block.scn';
