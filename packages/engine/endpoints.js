@@ -1,6 +1,6 @@
 import {isProd} from './env.js';
 
-export const compilerBaseUrl = "https://compiler.webaverse.com/";
+export const compilerBaseUrl = "https://weba-ic-compiler.vercel.app/";
 
 // scenes
 export const scenesBaseUrl = isProd ?
