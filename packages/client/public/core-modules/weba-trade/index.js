@@ -42,7 +42,7 @@ export default e => {
     if (reactAdded) return;
     reactAdded = true;
     {
-      const u = `${baseUrl}/trade.react`;
+      const u = `${baseUrl}trade.react`;
       reactApp = await metaversefile.createAppAsync({
         start_url: u,
       });
