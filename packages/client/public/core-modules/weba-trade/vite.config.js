@@ -17,7 +17,7 @@ try {
   canisterIds = JSON.parse(
     fs
       .readFileSync(
-        isDev ? "./trade_canister/.dfx/local/canister_ids.json" : "./trade_canister/canister_ids.json",
+        isDev ? "./trade_canister/canister_ids.json" : "./trade_canister/canister_ids.json",
       )
       .toString(),
   )
